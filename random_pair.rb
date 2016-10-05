@@ -1,1 +1,2 @@
-\
+def randomizer(names)
+end
