@@ -13,4 +13,9 @@ class TestRandomPair <Minitest::Test
         assert_equal(2, array.count)
     end
 
+    def test_for_paring_six_names
+        array = randomizer(["1", "2", "3", "4", "5", "6"])
+        assert_equal(3, array.count)
+    end
+
 end
