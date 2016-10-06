@@ -1,8 +1,5 @@
-def randomizer(names)
-    pairs = []
-    names.shuffle!
-    names.each do |person|
-        
-        end
+# [jacob, jeremy, lyle, ysabele, lotfi, cyndi, don, stephanie, susan, adam, mike, maxx, john]
 
+def randomizer(names)
+    []
 end
