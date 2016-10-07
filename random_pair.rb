@@ -9,5 +9,5 @@ def randomizer(names_array)
     else
         sliced
     end
-    puts "sliced = #{sliced}"
+    sliced
 end
