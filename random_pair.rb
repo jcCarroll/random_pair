@@ -9,4 +9,5 @@ def randomizer(names_array)
     else
         sliced
     end
+    sliced
 end
