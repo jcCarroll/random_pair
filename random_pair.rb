@@ -6,8 +6,9 @@ def randomizer(names_array)
     sliced = shuffled.each_slice(2).to_a
     if shuffled.length % 2 == 1
         sliced[-2] << sliced[-1][0]
+        sliced.pop
     else
         sliced
     end
-    sliced
+    puts "sliced = #{sliced}"
 end
